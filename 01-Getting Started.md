@@ -54,23 +54,23 @@ pi@raspberry:~ $ sudo systemctl enable ssh
 pi@raspberry:~ $ sudo systemctl start ssh
 ```
 
-##### a - Enable Camera
+##### a) - Enable Camera
 5 Interfacing Options -> P1 Camera -> Yes -> OK
 
-##### b - Enable Wifi
+##### b) - Enable Wifi
 2 Network Options -> N2 Wi-fi -> Select Country -> SSID -> Passphrase -> OK
 4 Localisation Options -> I4 Change Wi-fi Country -> Select Country -> OK
 
-##### c - Configure Timezone
+##### c) - Configure Timezone
 4 Localisation Options -> I2 Change Timezone -> Select Country -> Select City -> OK
 
-##### d - Expand Filesystem
+##### d) - Expand Filesystem
 7 Advanced Options -> A1 Expand Filesystem -> Enter
 
-##### e - Finish Configuration
+##### e) - Finish Configuration
 Choose Finish
 
-##### f - IP Address
+##### f) - IP Address
 ```
 pi@raspberry:~ $ ifconfig
 ```
