@@ -7,7 +7,7 @@
 - [Download Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 
 
-_Note: Python2 and Python3 are pre installed on raspbian_
+> _Note: Python2 and Python3 are pre installed on raspbian_
 
 ---
 #### 2 - Flash/Burn MicroHSD Card (32GB Recomemded)
@@ -74,11 +74,11 @@ pi@raspberry:~ $ sudo systemctl start ssh
 pi@raspberry:~ $ ifconfig
 ```
 
-_Note down eth0 and wlan0 ip addresses_
+> _Note: Write down **eth0** and **wlan0** ip addresses_
 
 Alternatively:
 ```
 pi@raspberry:~ $ hostname -I
 ```
 
-_Note down first two ips_
+> _Note: Write down first two ips_
