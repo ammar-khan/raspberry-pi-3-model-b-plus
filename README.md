@@ -12,6 +12,8 @@ Raspberry Pi 3 Model B+ Guide to:
 - [10-Setting Up GNU](./10-setting-up-gnu.md)
 - [11-Setting Up Docker](./11-setting-up-docker.md)
 - [12-Setting Up Docker Daemon](./12-setting-up-docker-daemon.md)
+- [13-Setting Up Docker Swarm Cluster](./13-setting-up-docker-swarm-cluster.md)
+
 
 
  
