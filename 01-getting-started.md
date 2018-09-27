@@ -1,7 +1,6 @@
 # Getting Started
 
 ## How to do a Raspberry Pi 3 Model B+ headless setup
----
 
 #### 1 - Download Raspbian Stretch Lite
 ---
