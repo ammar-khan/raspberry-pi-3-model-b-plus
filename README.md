@@ -10,6 +10,7 @@ Raspberry Pi 3 Model B+ Guide to:
 - [08-How to Manage Users](./08-manage-users.md)
 - [09-How to Manage Files and Directories](./09-manage-files-directories.md)
 - [09-Setting Up GNU](./10-setting-up-gnu.md)
+- [10-Setting Up Docker](./11-setting-up-docker.md)
 
  
  
