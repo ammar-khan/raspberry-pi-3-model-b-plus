@@ -35,9 +35,10 @@ Login Credentials:
 ---
 #### 4 - Configure Raspberry Pi
 ---
-```
+```console
 pi@raspberry:~ $ sudo raspi-config
 ```
+
 
 _Note: Use keyboard Tab key to navigate between options_
 
@@ -48,7 +49,8 @@ _Note: Use keyboard Tab key to navigate between options_
 - 5 Interfacing Options -> P2 SSH -> Yes -> OK
 
 > _Alternatively_
-```
+
+```console
 pi@raspberry:~ $ sudo systemctl enable ssh
 pi@raspberry:~ $ sudo systemctl start ssh
 ```
@@ -70,14 +72,16 @@ pi@raspberry:~ $ sudo systemctl start ssh
 - Choose Finish
 
 ##### h) - IP Address
-```
+
+```console
 pi@raspberry:~ $ ifconfig
 ```
 
 > _Note: Write down **eth0** and **wlan0** ip addresses_
 
 > _Alternatively_
-```
+
+```console
 pi@raspberry:~ $ hostname -I
 ```
 
