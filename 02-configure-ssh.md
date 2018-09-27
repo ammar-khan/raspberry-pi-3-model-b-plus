@@ -3,7 +3,7 @@
 ## How to connect Raspberry Pi 3 Model B+ from remote computer using SSH
 
 #### Prerequisite(s):
-- [Enable SSH on your Raspberry Pi 3 Model B+](./01-Getting%20Started.md)
+- [Enable SSH on your Raspberry Pi 3 Model B+](./01-getting-started.md)
 ---
 #### From Linux & Mac OS
 ---
