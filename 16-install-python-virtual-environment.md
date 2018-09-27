@@ -27,6 +27,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 ```
+`Ctrl+X` -> `Y` -> `Enter`
 
 ---
 #### 3 - Initialise Python Virtual Environement
