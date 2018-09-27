@@ -15,6 +15,6 @@ pi@192.168.1.111's password:
 #### From Windows
 ---
 ```console
-C:\> ssh pi@192.168.1.111 REM ssh <USER-ID>@<IP-ADDRESS>
+C:\> ssh pi@192.168.1.111
 pi@192.168.1.111's password:
 ```
