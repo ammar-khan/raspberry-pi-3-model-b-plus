@@ -5,7 +5,7 @@
 
 #### 1 - Download Raspbian Stretch Lite
 ---
-[Download Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
+- [Download Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 
 
 _Note: Python2 and Python3 are pre installed on raspbian_
@@ -15,11 +15,11 @@ _Note: Python2 and Python3 are pre installed on raspbian_
 ---
 
 ##### To Burn SD Card On Windows
-[Download Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
+- [Download Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
 
 
 ##### To Burn SD Card On MacOS
-[Download Etcher](https://etcher.io/)
+- [Download Etcher](https://etcher.io/)
 
 ---
 #### 3 - Boot Raspberry Pi with MicroHSD Card
