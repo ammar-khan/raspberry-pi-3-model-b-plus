@@ -42,10 +42,10 @@ pi@raspberry:~ $ sudo raspi-config
 
 _Note: Use keyboard Tab key to navigate between options_
 
-##### Change Host Name
+##### a) Change Host Name
 - 2 Network Options -> N1 Hostname -> N1 -> YOUR-HOST-NAME -> OK
 
-##### Enable SSH
+##### b) Enable SSH
 - 5 Interfacing Options -> P2 SSH -> Yes -> OK
 
 Alternatively:
@@ -54,23 +54,23 @@ pi@raspberry:~ $ sudo systemctl enable ssh
 pi@raspberry:~ $ sudo systemctl start ssh
 ```
 
-##### a) - Enable Camera
+##### c) - Enable Camera
 - 5 Interfacing Options -> P1 Camera -> Yes -> OK
 
-##### b) - Enable Wifi
+##### d) - Enable Wifi
 - 2 Network Options -> N2 Wi-fi -> Select Country -> SSID -> Passphrase -> OK
 - 4 Localisation Options -> I4 Change Wi-fi Country -> Select Country -> OK
 
-##### c) - Configure Timezone
+##### e) - Configure Timezone
 - 4 Localisation Options -> I2 Change Timezone -> Select Country -> Select City -> OK
 
-##### d) - Expand Filesystem
+##### f) - Expand Filesystem
 - 7 Advanced Options -> A1 Expand Filesystem -> Enter
 
-##### e) - Finish Configuration
+##### g) - Finish Configuration
 - Choose Finish
 
-##### f) - IP Address
+##### h) - IP Address
 ```
 pi@raspberry:~ $ ifconfig
 ```
