@@ -7,14 +7,14 @@
 ---
 #### From Linux & Mac OS
 ---
-```
-$ ssh pi@192.168.1.111 (ssh <USER-ID>@<IP-ADDRESS>)
+```console
+$ ssh pi@192.168.1.111 #ssh <USER-ID>@<IP-ADDRESS>
 pi@192.168.1.111's password:
 ```
 ---
 #### From Windows
 ---
-```
-C:\> ssh pi@192.168.1.111 (ssh <USER-ID>@<IP-ADDRESS>)
+```console
+C:\> ssh pi@192.168.1.111 REM ssh <USER-ID>@<IP-ADDRESS>
 pi@192.168.1.111's password:
 ```
