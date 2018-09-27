@@ -4,6 +4,9 @@ Raspberry Pi 3 Model B+ Guide to:
 - [02-Configure SSH](./02-configure-ssh.md)
 - [03-Configure Passwordless SSH](./03-configure-passwordless-ssh.md)
 - [04-Setting Up Wi-Fi](./04-setting-up-wi-fi.md)
+- [05-Configure Static IP Address](./05-configure-static-ip.md)
+
+ 
 
 
 - Setup &amp; Configure Pi
