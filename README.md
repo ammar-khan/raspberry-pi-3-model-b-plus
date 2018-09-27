@@ -15,6 +15,8 @@ Raspberry Pi 3 Model B+ Guide to:
 - [13-Setting Up Docker Swarm Cluster](./13-setting-up-docker-swarm-cluster.md)
 - [14-Setting Up Docker Swarm Dashboard](./14-setting-up-docker-swarm-dashboard.md)
 - [15-Install Python and PIP](./15-install-python-pip.md)
+- [16-Install Python Virtual Environment](./16-install-python-virtual-environment.md)
+
 
 
 
