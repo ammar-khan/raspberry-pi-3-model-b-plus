@@ -47,7 +47,7 @@ _Note: Use keyboard Tab key to navigate between options_
 ##### b) Enable SSH
 - 5 Interfacing Options -> P2 SSH -> Yes -> OK
 
-> _Alternatively:_
+> _Alternatively_
 ```
 pi@raspberry:~ $ sudo systemctl enable ssh
 pi@raspberry:~ $ sudo systemctl start ssh
@@ -76,7 +76,7 @@ pi@raspberry:~ $ ifconfig
 
 > _Note: Write down **eth0** and **wlan0** ip addresses_
 
-> _Alternatively:_
+> _Alternatively_
 ```
 pi@raspberry:~ $ hostname -I
 ```
