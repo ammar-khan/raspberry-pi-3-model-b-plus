@@ -8,7 +8,7 @@
 #### From Linux & Mac OS
 ---
 ```console
-$ ssh pi@192.168.1.111 #ssh <USER-ID>@<IP-ADDRESS>
+$ ssh pi@192.168.1.111
 pi@192.168.1.111's password:
 ```
 ---
@@ -18,3 +18,5 @@ pi@192.168.1.111's password:
 C:\> ssh pi@192.168.1.111
 pi@192.168.1.111's password:
 ```
+
+> _Note: ssh <USER-ID>@<IP-ADDRESS>_
