@@ -19,4 +19,4 @@ C:\> ssh pi@192.168.1.111
 pi@192.168.1.111's password:
 ```
 
-> _Note: ssh <USER-ID>@<IP-ADDRESS>_
+> _Note: `ssh <USER-ID>@<IP-ADDRESS>`_
