@@ -1,5 +1,5 @@
-# Raspberry Pi 3 Model B+
-Raspberry Pi 3 Model B+ Guide to:
+# Raspberry Pi 3 Model B+ Guide
+
 - [01-Getting Started](./01-getting-started.md)
 - [02-Connect via SSH](./02-configure-ssh.md)
 - [03-Configure Passwordless SSH](./03-configure-passwordless-ssh.md)
@@ -17,27 +17,4 @@ Raspberry Pi 3 Model B+ Guide to:
 - [15-Install Python and PIP](./15-install-python-pip.md)
 - [16-Install Python Virtual Environment](./16-install-python-virtual-environment.md)
 - [17-Install OpenCV](./17-install-opencv.md)
-
-
-
-
-
-
-
-
- 
- 
-
-
-
- 
-
-
-- Setup &amp; Configure Pi
-- Install Docker
-- Swarm Cluster
-- Python
-- Python Virtual Environment
-- Dlib
-- OpenCV
-- Tensorflow
+- [18-Install Dlib](./18-install-dlib.md)
