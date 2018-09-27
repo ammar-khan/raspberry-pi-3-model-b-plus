@@ -14,7 +14,7 @@ pi@192.168.1.111's password:
 ---
 #### From Windows
 ---
-```console
+```ternimal
 C:\> ssh pi@192.168.1.111
 pi@192.168.1.111's password:
 ```
