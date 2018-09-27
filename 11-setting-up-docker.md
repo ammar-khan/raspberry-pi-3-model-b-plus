@@ -23,7 +23,7 @@ pi@raspberry:~ $ sudo cat /proc/cgroups
 ```
 
 ---
-#### Install Docker
+#### 2 - Install Docker
 ---
 
 ```console
@@ -31,14 +31,14 @@ pi@raspberry:~ $ sudo curl -sSL get.docker.com | sh
 ```
 
 ---
-#### Add User pi to docker User Group
+#### 3 - Add User pi to docker User Group
 ---
 ```console
 pi@raspberry:~ $ sudo usermod -aG docker pi
 ```
 
 ---
-#### Verify Docker Installation
+#### 4 - Verify Docker Installation
 ---
 
 ```console
