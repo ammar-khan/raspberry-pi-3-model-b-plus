@@ -23,3 +23,4 @@
 - [16-Install Python Virtual Environment](./16-install-python-virtual-environment.md)
 - [17-Install OpenCV](./17-install-opencv.md)
 - [18-Install Dlib](./18-install-dlib.md)
+- [19-Install TensorFlow](./19-install-tensorflow.md)
