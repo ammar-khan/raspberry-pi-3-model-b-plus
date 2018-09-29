@@ -46,9 +46,9 @@ pi@raspberry:~ $ sudo workon my-env
 ```
 
 ```console
-(my-env)pi@raspberry:~ $ sudo pip3 install -y numpy
-(my-env)pi@raspberry:~ $ sudo pip3 install -y scipy
-(my-env)pi@raspberry:~ $ sudo pip3 install -y scikit-image
+(my-env)pi@raspberry:~ $ sudo pip3 install numpy
+(my-env)pi@raspberry:~ $ sudo pip3 install scipy
+(my-env)pi@raspberry:~ $ sudo pip3 install scikit-image
 
 (my-env)pi@raspberry:~ $ sudo reboot
 ```
