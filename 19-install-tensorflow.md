@@ -2,7 +2,7 @@
 
 ## How to Install TensorFlow Library on Raspberry Pi 3 Model B+
 
-> _Note: Raspbian is now officially supported by TensorFlow community_
+> _Note: Raspbian is now [officially supported](https://www.tensorflow.org/install/) by TensorFlow community_
 
 #### Prerequisite(s):
 - [Enable Swap Space on your Raspberry Pi 3 Model B+](./06-configure-swap-space.md)
