@@ -69,6 +69,7 @@ pi@raspberry:~ $
 #### Remove Python Virtual Environment
 ---
 ```console
+pi@raspberry:~ $ sudo rmvirtualenv ENVIRONMENT-NAME
 pi@raspberry:~ $ sudo rm -rf ENVIRONMENT-NAME/
 ```
  
