@@ -54,14 +54,14 @@ pi@raspberry:~ $ sudo mkvirtualenv ENVIRONMENT-NAME -p python3 #With python3
 ---
 ```console
 pi@raspberry:~ $ sudo workon ENVIRONMENT-NAME
-(ENVIRONMENT-NAME)pi@raspberry:~ $
+(ENVIRONMENT-NAME) pi@raspberry:~ $
 ```
 
 ---
 #### Deactivate Python Virtual Environment
 ---
 ```console
-(ENVIRONMENT-NAME)pi@raspberry:~ $ deactivate
+(ENVIRONMENT-NAME) pi@raspberry:~ $ deactivate
 pi@raspberry:~ $
 ```
 
