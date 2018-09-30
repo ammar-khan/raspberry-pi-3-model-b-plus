@@ -53,5 +53,6 @@ pi@raspberry:~ $ sudo workon tensorflow-env
 #### Remove TensorFlow
 ---
 ```console
+(tensorflow-env) pi@raspberry:~ $ sudo pip uninstall tensorboard
 (tensorflow-env) pi@raspberry:~ $ sudo pip uninstall tensorflow
 ```
