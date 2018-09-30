@@ -18,9 +18,9 @@ pi@raspberry:~ $ sudo workon my-env
 #### 2 - Install Dlib Prerequisite
 ---
 ```console
-(my-env)pi@raspberry:~ $ sudo apt-get update
-(my-env)pi@raspberry:~ $ sudo apt-get upgrade
-(my-env)pi@raspberry:~ $ sudo apt-get install -y build-essential \
+(my-env) pi@raspberry:~ $ sudo apt-get update
+(my-env) pi@raspberry:~ $ sudo apt-get upgrade
+(my-env) pi@raspberry:~ $ sudo apt-get install -y build-essential \
     cmake \
     gfortran \
     git \
@@ -42,15 +42,15 @@ pi@raspberry:~ $ sudo workon my-env
     python3-pip \
     zip
     
-(my-env)pi@raspberry:~ $ sudo apt-get clean
+(my-env) pi@raspberry:~ $ sudo apt-get clean
 ```
 
 ```console
-(my-env)pi@raspberry:~ $ sudo pip3 install numpy
-(my-env)pi@raspberry:~ $ sudo pip3 install scipy
-(my-env)pi@raspberry:~ $ sudo pip3 install scikit-image
+(my-env) pi@raspberry:~ $ sudo pip3 install numpy
+(my-env) pi@raspberry:~ $ sudo pip3 install scipy
+(my-env) pi@raspberry:~ $ sudo pip3 install scikit-image
 
-(my-env)pi@raspberry:~ $ sudo reboot
+(my-env) pi@raspberry:~ $ sudo reboot
 ```
 
 ---
@@ -58,10 +58,10 @@ pi@raspberry:~ $ sudo workon my-env
 ---
 ```console
 pi@raspberry:~ $ sudo workon my-env
-(my-env)pi@raspberry:~ $ sudo git clone https://github.com/davisking/dlib.git
-(my-env)pi@raspberry:~ $ cd dlib
-(my-env)pi@raspberry:~ $ sudo python3 setup.py install --clean --compiler-flags "-mfpu=neon"
-(my-env)pi@raspberry:~ $ sudo pip install dlib
+(my-env) pi@raspberry:~ $ sudo git clone https://github.com/davisking/dlib.git
+(my-env) pi@raspberry:~ $ cd dlib
+(my-env) pi@raspberry:~ $ sudo python3 setup.py install --clean --compiler-flags "-mfpu=neon"
+(my-env) pi@raspberry:~ $ sudo pip install dlib
 
 (my-env)pi@raspberry:~ $ sudo pip3 install face_recognition #OPTIONAL
 ```
@@ -70,7 +70,7 @@ pi@raspberry:~ $ sudo workon my-env
 #### 4 - Verify Dlib Working Correctly
 ---
 ```console
-(my-env)pi@raspberry:~ $ python
+(my-env) pi@raspberry:~ $ python
 ```
 ```python
 >>> import dlib
