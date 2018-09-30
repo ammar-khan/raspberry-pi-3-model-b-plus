@@ -31,15 +31,15 @@ pi@raspberry:~ $ sudo workon tensorflow-env
 ---
 ```console
 pi@raspberry:~ $ sudo workon tensorflow-env
-(tensorflow-env)pi@raspberry:~ $ sudo apt install libatlas-base-dev
-(tensorflow-env)pi@raspberry:~ $ sudo pip install --upgrade --ignore-installed tensorflow
+(tensorflow-env) pi@raspberry:~ $ sudo apt install libatlas-base-dev
+(tensorflow-env) pi@raspberry:~ $ sudo pip install --upgrade --ignore-installed tensorflow
 ```
 
 ---
 #### 4 - Verify TensorFlow Working Correctly
 ---
 ```console
-(tensorflow-env)pi@raspberry:~ $ python
+(tensorflow-env) pi@raspberry:~ $ python
 ```
 ```python
 >>> import tensorflow
@@ -53,5 +53,5 @@ pi@raspberry:~ $ sudo workon tensorflow-env
 #### Remove TensorFlow
 ---
 ```console
-(tensorflow-env)pi@raspberry:~ $ sudo pip uninstall tensorflow
+(tensorflow-env) pi@raspberry:~ $ sudo pip uninstall tensorflow
 ```
