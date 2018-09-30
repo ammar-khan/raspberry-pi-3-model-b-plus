@@ -63,10 +63,10 @@ pi@raspberry:~ $ sudo workon my-env
 #### 4 - Compile OpenCV
 ---
 ```console
-(my-env)pi@raspberry:~ $ cd opencv-3.4.3
-(my-env)pi@raspberry:~ $ sudo mkdir build
-(my-env)pi@raspberry:~ $ cd build
-(my-env)pi@raspberry:~ $ sudo cmake \
+(my-env) pi@raspberry:~ $ cd opencv-3.4.3
+(my-env) pi@raspberry:~ $ sudo mkdir build
+(my-env) pi@raspberry:~ $ cd build
+(my-env) pi@raspberry:~ $ sudo cmake \
 	-D CMAKE_BUILD_TYPE=RELEASE \
 	-D CMAKE_INSTALL_PREFIX=/usr/local \
 	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.4.3/modules \
@@ -78,7 +78,7 @@ pi@raspberry:~ $ sudo workon my-env
 	-D ENABLE_VFPV3=ON \
 	-D BUILD_TESTS=OFF ..
 
-(my-env)pi@raspberry:~ $ sudo reboot
+(my-env) pi@raspberry:~ $ sudo reboot
 ```
 
 ---
@@ -86,26 +86,26 @@ pi@raspberry:~ $ sudo workon my-env
 ---
 ```console
 pi@raspberry:~ $ sudo workon my-env
-(my-env)pi@raspberry:~ $ cd opencv-3.4.3/build
-(my-env)pi@raspberry:~ $ sudo make -j4 #make with 4 threads - takes 2 hours min
+(my-env) pi@raspberry:~ $ cd opencv-3.4.3/build
+(my-env) pi@raspberry:~ $ sudo make -j4 #make with 4 threads - takes 2 hours min
 ```
 
 ---
 #### 6 - Install OpenCV Make
 ---
 ```console
-(my-env)pi@raspberry:~ $ sudo make install
-(my-env)pi@raspberry:~ $ sudo ldconfig
+(my-env) pi@raspberry:~ $ sudo make install
+(my-env) pi@raspberry:~ $ sudo ldconfig
 ```
 
 ---
 #### 7 - Initialise OpenCV and Link in Virtual Environment
 ---
 ```console
-(my-env)pi@raspberry:~ $ cd /usr/local/lib/python3.5/dist-packages/
-(my-env)pi@raspberry:~ $ sudo cp cv2.cpython-35m-arm-linux-gnueabihf.so cv2.so  
-(my-env)pi@raspberry:~ $ cd ~/.virtualenvs/my-env/lib/python3.5/site-packages/
-(my-env)pi@raspberry:~ $ sudo ln -s /usr/local/lib/python3.5/dist-packages/cv2.so cv2.so #sym-link binding
+(my-env) pi@raspberry:~ $ cd /usr/local/lib/python3.5/dist-packages/
+(my-env) pi@raspberry:~ $ sudo cp cv2.cpython-35m-arm-linux-gnueabihf.so cv2.so  
+(my-env) pi@raspberry:~ $ cd ~/.virtualenvs/my-env/lib/python3.5/site-packages/
+(my-env) pi@raspberry:~ $ sudo ln -s /usr/local/lib/python3.5/dist-packages/cv2.so cv2.so #sym-link binding
 
 (my-env)pi@raspberry:~ $ sudo pip install -U numpy
 ```
@@ -113,7 +113,7 @@ pi@raspberry:~ $ sudo workon my-env
 > _If above mentioned packages path does not exist then_
 
 ```console
-(my-env)pi@raspberry:~ $ python
+(my-env) pi@raspberry:~ $ python
 ```
 ```python
 >>> import sys
@@ -124,7 +124,7 @@ pi@raspberry:~ $ sudo workon my-env
 ```
 `Ctrl+D`
 ```console
-(my-env)pi@raspberry:~ $ sudo reboot
+(my-env) pi@raspberry:~ $ sudo reboot
 ```
 
 ---
@@ -132,8 +132,8 @@ pi@raspberry:~ $ sudo workon my-env
 ---
 ```console
 pi@raspberry:~ $ workon my-env
-(my-env)pi@raspberry:~ $ source ~/.profile
-(my-env)pi@raspberry:~ $ python
+(my-env) pi@raspberry:~ $ source ~/.profile
+(my-env) pi@raspberry:~ $ python
 ```
 ```python
 >>> import cv2
@@ -148,18 +148,18 @@ pi@raspberry:~ $ workon my-env
 ---
 
 ```console
-(my-env)pi@raspberry:~ $ sudo apt-get remove -y ffmpeg
-(my-env)pi@raspberry:~ $ sudo apt-get --purge remove libav-tools
-(my-env)pi@raspberry:~ $ sudo apt-get --purge autoremove
+(my-env) pi@raspberry:~ $ sudo apt-get remove -y ffmpeg
+(my-env) pi@raspberry:~ $ sudo apt-get --purge remove libav-tools
+(my-env) pi@raspberry:~ $ sudo apt-get --purge autoremove
 
-(my-env)pi@raspberry:~ $ sudo pkg-config --modversion opencv
-(my-env)pi@raspberry:~ $ sudo dpkg -l libopencv*
-(my-env)pi@raspberry:~ $ sudo apt-get purge libopencv*
-(my-env)pi@raspberry:~ $ sudo dpkg -r opencv
-(my-env)pi@raspberry:~ $ sudo apt-get remove python-opencv
+(my-env) pi@raspberry:~ $ sudo pkg-config --modversion opencv
+(my-env) pi@raspberry:~ $ sudo dpkg -l libopencv*
+(my-env) pi@raspberry:~ $ sudo apt-get purge libopencv*
+(my-env) pi@raspberry:~ $ sudo dpkg -r opencv
+(my-env) pi@raspberry:~ $ sudo apt-get remove python-opencv
 
-(my-env)pi@raspberry:~ $ cd opencv-3.4.3/build/
-(my-env)pi@raspberry:~ $ sudo make uninstall
-(my-env)pi@raspberry:~ $ sudo apt-get autoremove opencv-doc opencv-data libopencv-dev libopencv2.4-java libopencv2.4-jni python-opencv libopencv-core2.4 libopencv-gpu2.4 libopencv-ts2.4 libopencv-photo2.4 libopencv-contrib2.4 libopencv-imgproc2.4 libopencv-superres2.4 libopencv-stitching2.4 libopencv-ocl2.4 libopencv-legacy2.4 libopencv-ml2.4 libopencv-video2.4 libopencv-videostab2.4 libopencv-objdetect2.4 libopencv-calib3d2.4 
-(my-env)pi@raspberry:~ $ sudo dpkg --get-selections | grep -v deinstall | grep opencv
+(my-env) pi@raspberry:~ $ cd opencv-3.4.3/build/
+(my-env) pi@raspberry:~ $ sudo make uninstall
+(my-env) pi@raspberry:~ $ sudo apt-get autoremove opencv-doc opencv-data libopencv-dev libopencv2.4-java libopencv2.4-jni python-opencv libopencv-core2.4 libopencv-gpu2.4 libopencv-ts2.4 libopencv-photo2.4 libopencv-contrib2.4 libopencv-imgproc2.4 libopencv-superres2.4 libopencv-stitching2.4 libopencv-ocl2.4 libopencv-legacy2.4 libopencv-ml2.4 libopencv-video2.4 libopencv-videostab2.4 libopencv-objdetect2.4 libopencv-calib3d2.4 
+(my-env) pi@raspberry:~ $ sudo dpkg --get-selections | grep -v deinstall | grep opencv
 ```
