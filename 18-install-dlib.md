@@ -7,6 +7,16 @@
 - [Install and Configure Python and PIP on your Raspberry Pi 3 Model B+](./15-install-python-pip.md)
 - [Install and Configure Python Virtual Environment on your Raspberry Pi 3 Model B+](./16-install-python-virtual-environment.md)
 
+#### Update
+---
+> _Note: Wheel available for Python._
+```console
+pi@raspberry:~ $ sudo pip install dlib
+```
+
+> _Note: Go to Step 4 and you are done!_
+
+---
 #### 1 - Create and Initialise Python Virtual Environment
 ---
 ```console
@@ -61,7 +71,6 @@ pi@raspberry:~ $ sudo workon my-env
 (my-env) pi@raspberry:~ $ sudo git clone https://github.com/davisking/dlib.git
 (my-env) pi@raspberry:~ $ cd dlib
 (my-env) pi@raspberry:~ $ sudo python3 setup.py install --clean --compiler-flags "-mfpu=neon"
-(my-env) pi@raspberry:~ $ sudo pip install dlib
 
 (my-env)pi@raspberry:~ $ sudo pip3 install face_recognition #OPTIONAL
 ```
