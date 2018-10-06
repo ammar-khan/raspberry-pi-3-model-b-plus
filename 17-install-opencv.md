@@ -7,6 +7,17 @@
 - [Install and Configure Python and PIP on your Raspberry Pi 3 Model B+](./15-install-python-pip.md)
 - [Install and Configure Python Virtual Environment on your Raspberry Pi 3 Model B+](./16-install-python-virtual-environment.md)
 
+#### Update
+---
+> _Note: Unofficial pre-built OpenCV packages for Python._
+```console
+pi@raspberry:~ $ sudo pip install opencv-python
+pi@raspberry:~ $ sudo pip install opencv-contrib-python
+```
+
+> _Note: Go to Step 8 and you are done!_
+
+---
 #### 1 - Install OpenCV Prerequisite
 ---
 ```console
