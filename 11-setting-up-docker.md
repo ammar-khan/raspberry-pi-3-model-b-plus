@@ -51,5 +51,8 @@ pi@raspberry:~ $ sudo docker info
 ```console
 pi@raspberry:~ $ sudo apt-get remove --auto-remove docker #Removes docker and dependencies
 pi@raspberry:~ $ sudo apt-get purge docker-ce #For newer versions 
+pi@raspberry:~ $ sudo dpkg -l | grep docker
+pi@raspberry:~ $ sudo sudo dpkg --purge docker-ce
+pi@raspberry:~ $ sudo sudo dpkg --purge docker-ce-cli
 pi@raspberry:~ $ sudo rm -rf /var/lib/docker #Removes all data 
 ```
