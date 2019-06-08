@@ -2,6 +2,11 @@
 
 ## How to setup Docker on Raspberry Pi 3 Model B+
 
+#### Prerequisite(s):
+```console
+pi@raspberry:~ $ sudo apt-get install apt-transport-https ca-certificates software-properties-common -y
+```
+
 #### 1 - Configure Linux Configuration Group
 ---
 
@@ -27,7 +32,7 @@ pi@raspberry:~ $ sudo cat /proc/cgroups
 ---
 
 ```console
-pi@raspberry:~ $ sudo curl -sSL get.docker.com | sh
+pi@raspberry:~ $ sudo curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
 ```
 
 ---
@@ -38,7 +43,41 @@ pi@raspberry:~ $ sudo usermod -aG docker pi
 ```
 
 ---
-#### 4 - Verify Docker Installation
+#### 4 - Import Docker PGP Key
+---
+```console
+pi@raspberry:~ $ sudo curl https://download.docker.com/linux/raspbian/gpg
+```
+
+---
+#### 5 - Setting up Docker Repository
+---
+```console
+pi@raspberry:~ $ sudo nano /etc/apt/sources.list
+```
+> _Append following line_
+```
+deb https://download.docker.com/linux/raspbian/ stretch stable
+```
+`Ctrl+X` -> `Y` -> `Enter`
+
+---
+#### 6 - Apply Patch
+---
+```console
+pi@raspberry:~ $ sudo apt-get update
+pi@raspberry:~ $ sudo apt-get upgrade
+```
+
+---
+#### 7 - Start Docker Service
+---
+```console
+pi@raspberry:~ $ sudo systemctl start docker.service
+```
+
+---
+#### 8 - Verify Docker Installation
 ---
 
 ```console
