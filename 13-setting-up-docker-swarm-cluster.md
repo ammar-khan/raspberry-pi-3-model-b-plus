@@ -35,6 +35,11 @@ pi@swarm-worker:~ $ sudo docker info
 pi@swarm-worker:~ $ sudo docker swarm join --token TOKEN IP-ADDRESS:2377
 ```
 
+##### c) To Retrieve Join Token on Manager Pi
+```console
+pi@swarm-worker:~ $ sudo docker swarm join-token worker
+```
+
 #### 4 - Confirm All Swarm Worker Pis are Joined with Docker Swarm Manager
 ```console
 pi@swarm-manager:~ $ sudo docker node ls
