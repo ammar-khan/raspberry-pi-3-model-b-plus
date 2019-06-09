@@ -30,4 +30,12 @@ pi@raspberry:~ $ sudo apt-get install -y python3-pip
 ```console
 pi@raspberry:~ $ sudo pip3 list
 ```
+
+---
+#### 5 - Upgrade PIP
+---
+
+```console
+pi@raspberry:~ $ sudo pip install --upgrade pip
+```
  
