@@ -2,9 +2,10 @@
 
 ## How to Install Python and PIP on Raspberry Pi 3 Model B+
 
-#### 1 - Install Python
+#### 1 - Install Python and PIP
 ---
 > _Note: Python2 and Python3 are pre installed on Raspbian OS_
+> _Note: PIP and PIP3 are pre installed on Raspbian OS_
 
 ---
 #### 2 - Verify Pre Installed Python
