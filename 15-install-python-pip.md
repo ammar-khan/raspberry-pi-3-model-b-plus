@@ -5,6 +5,7 @@
 #### 1 - Install Python and PIP
 ---
 > _Note: Python2 and Python3 are pre installed on Raspbian OS_
+
 > _Note: PIP and PIP3 are pre installed on Raspbian OS_
 
 ---
