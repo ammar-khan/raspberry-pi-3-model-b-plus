@@ -37,5 +37,9 @@ pi@raspberry:~ $ sudo pip3 list
 
 ```console
 pi@raspberry:~ $ sudo pip install --upgrade pip
+pi@raspberry:~ $ sudo -H pip3 install --upgrade pip
+pi@raspberry:~ $ sudo -H pip2 install --upgrade pip
+pi@raspberry:~ $ sudo pip install --upgrade setuptools pip
+pi@raspberry:~ $ sudo pip3 install --upgrade setuptools pip
 ```
  
