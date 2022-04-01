@@ -9,8 +9,9 @@
 
 #### Update
 ---
-> _Note: Unofficial pre-built OpenCV packages for Python._
 ```console
+pi@raspberry:~ $ sudo apt -y install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
+
 pi@raspberry:~ $ sudo pip install opencv-python
 pi@raspberry:~ $ sudo pip install opencv-contrib-python
 ```
