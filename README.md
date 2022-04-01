@@ -21,7 +21,7 @@
 #### Convert Raspberry Pi into Smart Machine Learning Tool
 - [15-Install Python and PIP](./15-install-python-pip.md)
 - [16-Install Python Virtual Environment](./16-install-python-virtual-environment.md)
-- [16.1-Install Python Virtual Environment](./16.1-install-python-venv.md)
+- [16.1-Install Python venv](./16.1-install-python-venv.md)
 - [17-Install OpenCV](./17-install-opencv.md)
 - [18-Install Dlib](./18-install-dlib.md)
 - [19-Install TensorFlow](./19-install-tensorflow.md)
