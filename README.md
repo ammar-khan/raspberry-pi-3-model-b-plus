@@ -25,3 +25,4 @@
 - [17-Install OpenCV](./17-install-opencv.md)
 - [18-Install Dlib](./18-install-dlib.md)
 - [19-Install TensorFlow](./19-install-tensorflow.md)
+- [19-Install TensorFlow Lite](./19.1-install-tensorflow-lite.md)
