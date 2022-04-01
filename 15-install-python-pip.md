@@ -43,3 +43,25 @@ pi@raspberry:~ $ sudo pip install --upgrade setuptools pip
 pi@raspberry:~ $ sudo pip3 install --upgrade setuptools pip
 ```
  
+---
+#### 6 - Set Default Python
+---
+```
+cd ~
+nano .bashrc
+```
+
+At the bottom of that document, add the following lines:
+
+Copy following lines
+
+```
+alias python=python3
+alias pip=pip3
+```
+
+Run command
+
+```
+source .bashrc
+```
