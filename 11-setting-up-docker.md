@@ -32,37 +32,33 @@ pi@raspberry:~ $ sudo cat /proc/cgroups
 ---
 
 ```console
-pi@raspberry:~ $ sudo curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+pi@raspberry:~ $ cd /tmp && \
+curl -fsSL get.docker.com -o get-docker.sh && \
+chmod +x get-docker.sh && \
+sudo ./get-docker.sh
 ```
 
 ---
-#### 3 - Add User pi to docker User Group
+#### 3 - Add User to docker User Group
 ---
 ```console
-pi@raspberry:~ $ sudo usermod -aG docker pi
+pi@raspberry:~ $ sudo usermod -aG docker $USER
 ```
 
 ---
-#### 4 - Import Docker PGP Key
+#### 4 - Setting up Docker Repository
 ---
 ```console
-pi@raspberry:~ $ sudo curl https://download.docker.com/linux/raspbian/gpg
-```
-
----
-#### 5 - Setting up Docker Repository
----
-```console
-pi@raspberry:~ $ sudo nano /etc/apt/sources.list
+pi@raspberry:~ $ sudo nano /etc/apt/sources.list.d/docker.list
 ```
 > _Append following line_
 ```
-deb https://download.docker.com/linux/raspbian/ stretch stable
+deb https://download.docker.com/linux/debian bullseye stable
 ```
 `Ctrl+X` -> `Y` -> `Enter`
 
 ---
-#### 6 - Apply Patch
+#### 5 - Apply Patch
 ---
 ```console
 pi@raspberry:~ $ sudo apt-get update
@@ -70,14 +66,14 @@ pi@raspberry:~ $ sudo apt-get upgrade
 ```
 
 ---
-#### 7 - Start Docker Service
+#### 6 - Start Docker Service
 ---
 ```console
 pi@raspberry:~ $ sudo systemctl start docker.service
 ```
 
 ---
-#### 8 - Verify Docker Installation
+#### 7 - Verify Docker Installation
 ---
 
 ```console
