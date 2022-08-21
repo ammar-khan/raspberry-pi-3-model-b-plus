@@ -1,4 +1,4 @@
-# Raspberry Pi 3 Model B+ Guide
+# Raspberry Pi 3/4 Model B+ Guide
 
 #### Raspberry Pi Basic
 - [01-Getting Started](./01-getting-started.md)
